@@ -1,0 +1,66 @@
+/* UserList.module.css */
+.pageContainer {
+  display: flex;
+  justify-content: center; /* Center the user list horizontally */
+  align-items: center; /* Center vertically as well */
+}
+
+.userList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+}
+
+/* Other styles remain the same */
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Add some spacing between the header and the table */
+}
+
+.header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.table th, .table td:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.table th:last-child, .table td:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
